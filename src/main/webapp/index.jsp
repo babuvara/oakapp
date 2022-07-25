@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>MVC Index</title>
+<title>Index</title>
 </head>
 <body>
-<h1>MVC</h1>
+<h1>babu</h1>
 </body>
 </html>
