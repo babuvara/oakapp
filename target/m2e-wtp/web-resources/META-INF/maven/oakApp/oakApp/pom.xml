@@ -53,10 +53,8 @@ spring MVC project for hosting in cloud</description>
 			<artifactId>ojdbc11</artifactId>
 			<version>21.1.0.0</version>
 		</dependency>
-		<!-- <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency> -->
+		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-data-jpa</artifactId> 
+			</dependency> -->
 	</dependencies>
 
 	<build>
@@ -67,6 +65,10 @@ spring MVC project for hosting in cloud</description>
 				<configuration>
 					<release>16</release>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
