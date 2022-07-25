@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 /build/
 =======
+bin/
+.settings/
+target/
 # Compiled class file
 *.class
 
